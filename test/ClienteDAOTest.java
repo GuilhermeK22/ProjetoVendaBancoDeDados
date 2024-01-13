@@ -59,13 +59,13 @@ public class ClienteDAOTest {
         cliente.setCpf(123456789L);
         cliente.setNome("Guilherme");
         cliente.setCidade("Lagoa Vermelha");
-        cliente.setEnd("Endereco");
-        cliente.setEstado("LV");
+        cliente.setEnd("End");
+        cliente.setEstado("RS");
         cliente.setNumero(100);
         cliente.setTel(99999999L);
         cliente.setEmail("email@email");
         Boolean retorno = clienteDao.cadastrar(cliente);
-        assertTrue(retorno);
+        Assert.assertTrue(retorno);
 
         Cliente clienteConsultado = clienteDao.consultar(cliente.getCpf());
         Assert.assertNotNull(clienteConsultado);
@@ -86,7 +86,7 @@ public class ClienteDAOTest {
         cliente.setTel(99999999L);
         cliente.setEmail("email@email");
         Boolean retorno = clienteDao.cadastrar(cliente);
-        assertTrue(retorno);
+        Assert.assertTrue(retorno);
 
         Cliente clienteConsultado = clienteDao.consultar(cliente.getCpf());
         Assert.assertNotNull(clienteConsultado);
@@ -108,7 +108,7 @@ public class ClienteDAOTest {
         cliente.setTel(99999999L);
         cliente.setEmail("email@email");
         Boolean retorno = clienteDao.cadastrar(cliente);
-        assertTrue(retorno);
+        Assert.assertTrue(retorno);
 
         Cliente clienteConsultado = clienteDao.consultar(cliente.getCpf());
         Assert.assertNotNull(clienteConsultado);
@@ -137,7 +137,7 @@ public class ClienteDAOTest {
         cliente.setTel(99999999L);
         cliente.setEmail("email@email");
         Boolean retorno = clienteDao.cadastrar(cliente);
-        assertTrue(retorno);
+        Assert.assertTrue(retorno);
 
         Cliente cliente1 = new Cliente();
         cliente1.setCpf(00000001L);
@@ -149,7 +149,7 @@ public class ClienteDAOTest {
         cliente1.setTel(1199999999L);
         cliente.setEmail("email1@email1");
         Boolean retorno1 = clienteDao.cadastrar(cliente1);
-        assertTrue(retorno1);
+        Assert.assertTrue(retorno1);
 
         Collection<Cliente> list = clienteDao.buscarTodos();
         assertTrue(list != null);

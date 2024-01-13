@@ -4,50 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dfadb96-5036-40be-b070-80fd30f403ed" name="Changes" comment="">
+    <list default="true" id="4dfadb96-5036-40be-b070-80fd30f403ed" name="Changes" comment="Commit 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjetoVendaBancoDeDados.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProjetoVendaBancoDeDados.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anotacao/ColunaTabela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anotacao/ColunaTabela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anotacao/Tabela.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anotacao/Tabela.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/anotacao/TipoChave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/anotacao/TipoChave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ClienteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/IClienteDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IClienteDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/IProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/IVendaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/IVendaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/Persistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/Persistente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ProdutoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/VendaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/VendaDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/factory/ClienteFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/factory/ClienteFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/factory/ProdutoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/factory/ProdutoFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/factory/ProdutoQuantidadeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/factory/VendaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/factory/VendaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/generic/GenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/generic/GenericDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/generic/IGenericDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/generic/IGenericDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/generic/SingletonMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/generic/SingletonMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/generic/jdbc/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/ProdutoQuantidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/ProdutoQuantidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/Venda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/Venda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/DAOException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/DAOException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/MaisDeUmRegistroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/TableException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/TableException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/TipoChaveNaoEncontradaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/TipoElementoNaoConhecidoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/IClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/IClienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/IProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/IProdutoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ProdutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/ProdutoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/generic/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/generic/GenericService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/generic/IGenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/generic/IGenericService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/AllTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/AllTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ClienteDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ClienteDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ClienteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ClienteServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ProdutoDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ProdutoDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ProdutoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ProdutoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/VendaDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/VendaDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dao/ClienteDAOMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/dao/ClienteDAOMock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/dao/ProdutoDAOMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/dao/ProdutoDAOMock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,20 +45,20 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="ClienteDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClienteDAOTest">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjetoVendaBancoDeDados" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClienteDAOTest" />
+      <option name="MAIN_CLASS_NAME" value="AllTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ProjetoVendaBancoDeDados" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ClienteServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="ClienteDAOTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,10 +94,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ClienteDAOTest" />
+        <item itemvalue="JUnit.AllTests" />
         <item itemvalue="JUnit.VendaDAOTest" />
         <item itemvalue="JUnit.ProdutoServiceTest" />
         <item itemvalue="JUnit.ProdutoDAOTest" />
-        <item itemvalue="JUnit.ClienteServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +110,19 @@
       <option name="presentableId" value="Default" />
       <updated>1705079390814</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit 1">
+      <created>1705170337124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705170337124</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
